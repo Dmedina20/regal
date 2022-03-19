@@ -1,0 +1,17 @@
+Developer Technical Test
+
+Build a simplified version of regmovies.com based on the mobile (375px) and desktop (1440px) layout images provided.
+React is preferred but definitely not required. Use whatever tech stack you are most comforatble with.
+Pixel perfect matching also isn't required, just use your best judgement on design.
+
+- Logo in header should be centered when screen width less than 1024px wide.
+- Logo in header should float 16px to the right of the start of a centered 1024px header section when screen is larger than 1024px wide.
+- Start showing first 10 posters.
+- Use the poster SubType: "TV_SmallPosterImage" from the Media collection for each film.
+- Show a button which allows you to load additonal posters.
+- Make sure posters reflow cleanly as browser width grows or shrinks.
+
+- Deliver as a zip file or a link to a repository
+- Feel free be creative and spice up the project in any way you'd like.
+
+All necessary assests are included, or linked within the attached JSON file.
