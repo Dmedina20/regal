@@ -1,11 +1,36 @@
 import * as React from "react";
+import Movies from "./nowPlaying.json"
 
-const Hero = () => {
+
+
+
+
+const Movies = () => {
+
+  const movies= movies;
+
   return (
     <>
-      <div className="container w-full h-full bg-white m-auto"></div>
+{
+
+      movies.MovieFeedEntries.map(movie =>(
+      <div className="section">
+        {}
+        <img src={movie.Movie.Media[0].SecuredUrl}/>
+        <li>{movie.Movie.Title}</li>
+
+
+
+
+
+      </div>
+      ))
+
+
+
+}
     </>
   );
 };
 
-export default Hero;
+export default Movies;
