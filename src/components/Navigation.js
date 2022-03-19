@@ -7,7 +7,7 @@ const NavigationBar = () => {
       <nav className=" z-50 bg-#121212 shadow dark:bg-orange-800  w-full  ">
         <div
           className="container
-       px-5 py-5 mx-auto md:flex md:justify-between md:items-center"
+       px-5 py-5 m-auto flex justify-center items-center lg:justify-between lg:mx-auto"
         >
           <div className="px-3 py-3">
             <a className="text-xl " href="/">
