@@ -1,6 +1,6 @@
 import React from "react";
 import Navigation from "../components/Navigation";
-import Footer from "../components/Footer";
+import Load from "../components/LoadMore";
 import { Children } from "react";
 import PropTypes from "prop-types";
 import { ToastProvider } from "react-toast-notifications";
@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
           <Navigation />
 
           <div>{children}</div>
-          <Footer />
+          <Load />
         </div>
       </ToastProvider>
     </>
